@@ -394,29 +394,29 @@
         <!-- content section -->
          <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-4">
           <!-- accordion -->
-           <div class="flex flex-col flex-1 gap-6">
-            <div class="collapse collapse-plus bg-base-200 p-2">
+           <div class="flex flex-col gap-6 h-full grow">
+            <div class="collapse collapse-plus bg-base-200 p-2 Contact With Us ">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
               <div class="collapse-content">
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200">
+            <div class="collapse collapse-plus bg-base-200 p-2 Contact With Us">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
               <div class="collapse-content">
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200">
+            <div class="collapse collapse-plus bg-base-200 p-2 Contact With Us">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
               <div class="collapse-content">
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200">
+            <div class="collapse collapse-plus bg-base-200 p-2 Contact With Us">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
               <div class="collapse-content">
@@ -428,14 +428,119 @@
            </div>
 
           <!-- image -->
-           <div>
-            <img src="images/faq.png" alt="">
+           <div class="">
+            <img class="h-full" src="images/faq.png" alt="">
            </div>
          </div>
       </section>
 
       <!-- contact with us -->
-      <section></section>
+      <section class="my-12">
+        <!-- heading secion -->
+        <div class="hero mt-28">
+          <div class="hero-content text-center">
+            <div class="">
+              <h1 class="text-5xl font-bold  eb-garamond dark2" >Contact With Us</h1>
+              <p class="py-6 w-[80%] mx-auto text-base mt-4">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+              </p>              
+            </div>
+          </div>          
+        </div>
+        <!-- grid section -->
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-4">
+          <!-- card section -->
+          <div class="grid grid-cols-2">
+
+            <!-- card 1 -->
+            <div class="card    border hover:bg-gray-100 hover:border-gray-300 rounded-none">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/address.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title dark2 text-3xl eb-garamond pb-4">BusAddress</h2>
+                <p class="text-base ">A108 Adam Street,<br>
+                  New York, NY 535022</p>
+                
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card    border hover:bg-gray-100  hover:border-gray-300 rounded-none">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/call.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title dark2 text-3xl eb-garamond  pb-4  pb-4">Call Us</h2>
+                <p class="text-base ">+88 01750 00 00 00<br>
+                  +88 01750 00 00 00</p>
+               
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card    border hover:bg-gray-100 hover:border-gray-300 rounded-none">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/email.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title dark2 text-3xl eb-garamond  pb-4">Email Us</h2>
+                <p class="text-base ">info@gmail.com <br>
+                  info@gmail.com</p>
+                
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card    border hover:bg-gray-100 hover:border-gray-300 rounded-none">
+              <figure class="px-10 pt-10">
+                <img
+                  src="images/time.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title dark2 text-3xl eb-garamond  pb-4">Working Hours</h2>
+                <p class="text-base ">Mon-Fri: 9AM to 5PM <br>
+                  Sunday: 9AM to 1 PM</p>
+                
+              </div>
+            </div>
+          </div>
+          
+          <!-- input details -->
+           <div class="flex flex-col grow-1 h-full gap-6">
+            <label class="input input-bordered flex items-center gap-2 p-8">
+              <input type="text" class="grow" placeholder="Your Name" />
+              
+            </label>
+            <label class="input input-bordered flex items-center gap-2  p-8">
+              
+              <input type="text" class="grow" placeholder="Your Email" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2  p-8">
+              
+              <input type="text" class="grow" placeholder="Subject" />
+            </label>
+
+            <textarea class="textarea textarea-bordered w-full" rows="5" cols="50" placeholder="Your Message"></textarea>
+            <label class="input input-bordered flex items-center p-0">
+              
+              <button class="btn btn-primary color-justice border-none grow">hee ee </button>
+            </label>
+            
+           </div>
+         </div>
+        
+
+      </section>
 
       <!-- footer -->
       <section></section>
